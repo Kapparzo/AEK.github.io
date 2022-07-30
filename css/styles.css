@@ -13,6 +13,18 @@ h1 {
   font-weight: 900;
 }
 
+h3 {
+font-family: "Montserrat";
+font-weight: bold;
+font-size: 1.5rem;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+}
+
 a {
   color: white;
 }
@@ -52,14 +64,100 @@ a {
   margin: 5% 3% 5% 0;
 }
 
-/* Title Image */
+/* Moving the iPhone) */
 
-.title-image {
-  width: 60%;
-  transform: rotate(15deg);
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
-.title-image:hover {
-  width: 60%;
-  transform: rotate(-25deg) ease-in-out;
+/* Title Image (iPhone) */
+
+.title-image {
+  width: 13%;
+  size: 13%;
+  transform: rotate(15deg);
+  position: absolute;
+  right: 20%;
+  bottom: 30%;
+}
+
+
+/* Features */
+
+.row {
+  text-align: center;
+}
+
+.icon {
+  text-align: center;
+  color: #ef8172;
+  height: 60px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feats {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials {
+
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  transition-duration: 0.5s;
+  padding: 7% 15%;
+}
+
+/* Press */
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+  position: relative;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 15%;
+}
+
+/* Call To Action */
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding-top: 3%;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
 }
